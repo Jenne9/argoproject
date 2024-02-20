@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: jenne-app
+  namespace: mathieu-argo
+spec:
+  destination:
+    namespace: jenne
+    server: https://kubernetes.default.svc
+  project: jenne
+  source:
+    helm:
+      valueFiles:
+      - values.yaml
+    path: mon-app
+    repoURL: https://github.com/Jenne9/argocd.git
+    targetRevision: HEAD
+  syncPolicy:
+    automated: {}

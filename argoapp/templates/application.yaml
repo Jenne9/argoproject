@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: jenne
+  namespace: mathieu-argo
+spec:
+  description: demo d'une application geree as code
+  destinations:
+    - name: in-cluster
+      namespace: jenne
+      server: https://kubernetes.default.svc
+  sourceRepos:
+    - https://github.com/Jenne9/argocd.git
+status: {}
