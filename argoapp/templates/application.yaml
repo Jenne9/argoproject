@@ -10,5 +10,5 @@ spec:
       namespace: jenne
       server: https://kubernetes.default.svc
   sourceRepos:
-    - https://github.com/Jenne9/argocd.git
+    - https://github.com/O-clock-Hati/challenge-s15-e06-Jenne9.git
 status: {}
