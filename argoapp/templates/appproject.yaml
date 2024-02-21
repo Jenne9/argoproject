@@ -11,9 +11,9 @@ spec:
   source:
     helm:
       valueFiles:
-      - values.yaml
+        - values.yaml
     path: mon-app
-    repoURL: https://github.com/Jenne9/argocd.git
+    repoURL: https://github.com/O-clock-Hati/challenge-s15-e06-Jenne9.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
