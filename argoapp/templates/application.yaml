@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
   name: jenne
-  namespace: mathieu-argo
+  namespace: jenne
 spec:
   description: Challenge finale deploiement d'une ap en iaac
   destinations:
