@@ -4,11 +4,11 @@ metadata:
   name: jenne
   namespace: mathieu-argo
 spec:
-  description: demo d'une application geree as code
+  description: Challenge finale deploiement d'une ap en iaac
   destinations:
     - name: in-cluster
       namespace: jenne
       server: https://kubernetes.default.svc
   sourceRepos:
-    - https://github.com/O-clock-Hati/challenge-s15-e06-Jenne9.git
+    - https://github.com/O-clock-Hati/challenge-final-Jenne9.git
 status: {}
